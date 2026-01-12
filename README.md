@@ -1,26 +1,17 @@
-# gabriel-www
+# gabrielbarcelos.com.br
 
-My personal website, portfolio, and blog.
+My personal website/portfolio/blog.
 
 ## Stack
 
-This project is built with a modern web development stack:
+- Next.js
+- Typescript
+- Tailwind
+- Contentlayer/MDX
+- Vercel
 
-- **Next.js**
-- **TypeScript**
-- **Tailwind**
-- **Contentlayer/MDX**
-- **Fauna**
-- **Vercel**
+## Optional services
 
-## Features
-
-- **Blog posts**: Writing about technology and development.
-- **About**: A brief introduction about myself and my journey.
-- **Projects**: A curated list of my personal and professional work.
-- **Library**: A list of books I've read or recommend.
-- **Bookmarks**: A collection of interesting links and resources.
-
-## Acknowledgments
-
-This project is based on the original work by [Samuel Kraft](https://github.com/samuelkraft/samuelkraft.com).
+- Fauna (likes/views, disabled by default)
+- ConvertKit (newsletter, disabled by default)
+- Strava (activity gallery, disabled by default)
