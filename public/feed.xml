@@ -4,42 +4,14 @@
         <description><![CDATA[Gabriel Barcelos]]></description>
         <link>https://gabrielbarcelos.com.br</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 Jan 2026 23:40:59 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Jan 2026 10:46:27 GMT</lastBuildDate>
         <atom:link href="https://gabrielbarcelos.com.br/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Building a blog with Notions public API]]></title>
-            <description><![CDATA[How to use Notion as a CMS using their public API and Next.js]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/building-a-notion-blog-with-public-api</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/building-a-notion-blog-with-public-api</guid>
-            <pubDate>Mon, 17 May 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Fractional SVG stars with CSS]]></title>
-            <description><![CDATA[Create a rating component with svg stars that support fractional values]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/fractional-svg-stars-css</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/fractional-svg-stars-css</guid>
-            <pubDate>Tue, 07 Sep 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Animated music bars with CSS]]></title>
-            <description><![CDATA[How to create an animated icon perfect for visualizing music]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/animated-music-bars</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/animated-music-bars</guid>
-            <pubDate>Sun, 31 Jan 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[My favorite productivity hack: git newmr]]></title>
-            <description><![CDATA[Using git aliases to automate repetitive tasks]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/git-newmr</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/git-newmr</guid>
-            <pubDate>Mon, 08 Feb 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Generating Open Graph images with Mapbox & Canvas]]></title>
-            <description><![CDATA[How to use Mapbox static image API and Node Canvas to generate custom sharing images]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/mapbox-static-image-api</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/mapbox-static-image-api</guid>
-            <pubDate>Mon, 10 May 2021 00:00:00 GMT</pubDate>
+            <title><![CDATA[Page Transitions with Framer Motion]]></title>
+            <description><![CDATA[Using framer motion to animate page transitions]]></description>
+            <link>https://gabrielbarcelos.com.br/blog/page-transition-with-framer-motion</link>
+            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/page-transition-with-framer-motion</guid>
+            <pubDate>Fri, 05 Feb 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Building my personal website with Next.js backed by Notion]]></title>
@@ -49,39 +21,11 @@
             <pubDate>Fri, 22 Jan 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Page Transitions with Framer Motion]]></title>
-            <description><![CDATA[Using framer motion to animate page transitions]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/page-transition-with-framer-motion</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/page-transition-with-framer-motion</guid>
-            <pubDate>Fri, 05 Feb 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Styling Radix UI with CSS]]></title>
-            <description><![CDATA[Quick tip for styling Radix Primitives with plain CSS, CSS Modules, Vanilla Extract and more.]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/radix-ui-styling-with-css</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/radix-ui-styling-with-css</guid>
-            <pubDate>Wed, 15 Dec 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Responsive Animations with Framer Motion]]></title>
-            <description><![CDATA[How to write responsive variants with media queries in javascript]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/responsive-animation-framer-motion</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/responsive-animation-framer-motion</guid>
-            <pubDate>Thu, 10 Jun 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Using Bottom Tab Bars on Safari iOS 15]]></title>
-            <description><![CDATA[How to safely design and develop web tab bars on Safari 15]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/safari-15-bottom-tab-bars-web</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/safari-15-bottom-tab-bars-web</guid>
-            <pubDate>Thu, 17 Jun 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How to create iOS chat bubbles in CSS]]></title>
-            <description><![CDATA[Creating a chat messaging app ui with CSS (with a sprinkle of JS and Framer Motion)]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/ios-chat-bubbles-css</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/ios-chat-bubbles-css</guid>
-            <pubDate>Sun, 21 Feb 2021 00:00:00 GMT</pubDate>
+            <title><![CDATA[Animated music bars with CSS]]></title>
+            <description><![CDATA[How to create an animated icon perfect for visualizing music]]></description>
+            <link>https://gabrielbarcelos.com.br/blog/animated-music-bars</link>
+            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/animated-music-bars</guid>
+            <pubDate>Sun, 31 Jan 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Segmented Control for web with Framer Motion]]></title>
@@ -91,13 +35,6 @@
             <pubDate>Mon, 15 Feb 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Using the Strava API with Next.js]]></title>
-            <description><![CDATA[How to access Strava data from a Next.js app]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/strava-api-with-nextjs</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/strava-api-with-nextjs</guid>
-            <pubDate>Fri, 16 Dec 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Spring-based Parallax with Framer motion: Step by step]]></title>
             <description><![CDATA[A guide on creating a spring-based Parallax scrolling effect using Framer Motion and React]]></description>
             <link>https://gabrielbarcelos.com.br/blog/spring-parallax-framer-motion-guide</link>
@@ -105,32 +42,11 @@
             <pubDate>Tue, 16 Mar 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Evolving Personal Website]]></title>
-            <description><![CDATA[A brief history of my personal website starting in the tumblr era.]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/the-evolving-personal-website</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/the-evolving-personal-website</guid>
-            <pubDate>Fri, 22 Jan 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Building a mapping platform with React and Mapbox GL]]></title>
-            <description><![CDATA[How I built my side project Trail Routes]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/trailroutes</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/trailroutes</guid>
-            <pubDate>Tue, 20 Apr 2021 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Using SF Pro Rounded with React Native]]></title>
-            <description><![CDATA[How to use San Francisco Pro Rounded with React Native]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/using-sf-pro-rounded-with-react-native</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/using-sf-pro-rounded-with-react-native</guid>
-            <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Using Vanilla Extract with next-themes]]></title>
-            <description><![CDATA[How to apply vanilla extract themes to Next.js apps]]></description>
-            <link>https://gabrielbarcelos.com.br/blog/vanilla-extract-with-next-themes</link>
-            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/vanilla-extract-with-next-themes</guid>
-            <pubDate>Sat, 18 Dec 2021 00:00:00 GMT</pubDate>
+            <title><![CDATA[My favorite productivity hack: git newmr]]></title>
+            <description><![CDATA[Using git aliases to automate repetitive tasks]]></description>
+            <link>https://gabrielbarcelos.com.br/blog/git-newmr</link>
+            <guid isPermaLink="true">https://gabrielbarcelos.com.br/blog/git-newmr</guid>
+            <pubDate>Mon, 08 Feb 2021 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

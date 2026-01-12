@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import cn from "clsx";
 import localFont from "@next/font/local";
 
-import imageGotland from "public/gallery/gotland.jpg";
-import imageRun from "public/gallery/running.jpg";
-import imageSkate from "public/gallery/skate.jpg";
-import imageTrailrun from "public/gallery/trailrun.jpg";
+import imageBiking from "public/gallery/biking.jpeg";
+import imageMe from "public/gallery/me.png";
+import imageBikingWithKids from "public/gallery/biking-with-kids.jpeg";
+import imageTraveling from "public/gallery/traveling-with-family.jpeg";
 import { ReactNode } from "react";
 import Activity, { ActivityType } from "./Activity";
 import Link from "./Link";
@@ -144,9 +144,9 @@ export default function Gallery({
     <>
       <section className="flex gap-4 h-[268px] relative">
         <Photo
-          src={imageGotland}
-          meta="2021-07-12"
-          alt="Gabriel Barcelos in Gotland"
+          src={imageMe}
+          meta="2026-01-01"
+          alt="Working"
           width={314}
           height={229}
           rotate={-6}
@@ -154,9 +154,9 @@ export default function Gallery({
           index={1}
         />
         <Photo
-          src={imageSkate}
-          meta="2017-07-04"
-          alt="Gabriel skateboarding"
+          src={imageBiking}
+          meta="2023-08-19"
+          alt="Pedalando em Pirenópolis - GO"
           width={180}
           height={240}
           rotate={6.3}
@@ -165,9 +165,9 @@ export default function Gallery({
           flipDirection="left"
         />
         <Photo
-          src={imageRun}
+          src={imageBikingWithKids}
           meta="2021-05-20"
-          alt="Gabriel running in the sunset"
+          alt="Biking with kids"
           width={270}
           height={225}
           rotate={-5.4}
@@ -200,9 +200,9 @@ export default function Gallery({
           </Photo>
         ) : (
           <Photo
-            src={imageTrailrun}
-            meta="2022-09-10"
-            alt={"Trail Run view"}
+            src={imageTraveling}
+            meta="2025-03-24"
+            alt={"Traveling with family"}
             width={190}
             height={253}
             rotate={7.6}

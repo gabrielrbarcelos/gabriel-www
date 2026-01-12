@@ -38,7 +38,7 @@ const sideProjects = [
 
 const seoTitle = "About | Gabriel Barcelos";
 const seoDesc =
-  "A designer/frontend developer hybrid that loves to build great products with delightful interfaces.";
+  "Gabriel Barcelos is a designer and software developer focused on building thoughtful digital products, combining modern web technologies, clean interfaces, and solid engineering principles.";
 
 export default function About({
   lastActivity,
@@ -79,24 +79,30 @@ export default function About({
           <Section heading="About me" headingAlignment="right">
             <div className="flex flex-col gap-6">
               <p>
-                <em className="font-semibold">Hi there!</em>&nbsp; I’m Gabriel
-                Barcelos, a designer/developer who enjoys building thoughtful
-                digital experiences.
+                <em className="font-semibold">Hi there!</em>&nbsp;I’m Gabriel Barcelos, a
+                designer and software developer focused on building thoughtful, well-crafted
+                digital products.
               </p>
+
               <p>
-                This space is yours to introduce your background, focus areas,
-                and the kinds of projects you like to work on.
+                I work primarily with modern web technologies, system architecture, and
+                product-oriented development, always aiming for clarity, performance, and
+                long-term maintainability.
               </p>
+
               <p>
-                Highlight your specialties, tools, or the impact you’ve had on
-                recent work.
+                I value simple solutions, solid technical decisions, and clean interfaces.
+                For me, good software is the result of intention, restraint, and attention
+                to detail.
               </p>
+
               <p>
-                Add a personal touch like where you’re based or what inspires
-                you outside of work.
+                This site is a personal space where I share projects, ideas, and things I’m
+                learning along the way — a living record of what I’m building and exploring.
               </p>
             </div>
           </Section>
+
           <Section heading="Connect" headingAlignment="right">
             <ul className="flex gap-6 animated-list">
               {connectLinks.map((link) => (

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import avatar from "public/gb-logo-nobg.png";
+import avatar from "public/avatar-logo.png";
 import NavLink from "./NavLink";
 import ThemeSwitcher from "./ThemeSwitcher";
 
