@@ -223,7 +223,7 @@ export default function RadialMenuPage() {
   const title = "Radial Menu";
   const seoTitle = `${title} | Gabriel Barcelos`;
   const desc = `Fun interaction from Pinterest on iOS built with Framer Motion`;
-  const url = `https://gabrielbarcelos.com.br/playground/radial-menu`;
+  const url = `https://gabrielrbarcelos.com/playground/radial-menu`;
   return (
     <>
       <NextSeo
@@ -236,7 +236,7 @@ export default function RadialMenuPage() {
           description: desc,
           images: [
             {
-              url: "https://gabrielbarcelos.com.br/og.jpg",
+              url: "https://gabrielrbarcelos.com/og.jpg",
               alt: title,
             },
           ],

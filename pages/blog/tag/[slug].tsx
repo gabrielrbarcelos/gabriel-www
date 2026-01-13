@@ -20,7 +20,7 @@ const Tag = ({ posts }: TagProps): JSX.Element => {
 
   const seoTitle = `${tag} | Gabriel Barcelos`;
   const seoDesc = `Posts &amp; tutorials about ${tag}`;
-  const url = `https://gabrielbarcelos.com.br/blog/tag/${tag}`;
+  const url = `https://gabrielrbarcelos.com/blog/tag/${tag}`;
 
   return (
     <>

@@ -7,8 +7,8 @@ const matter = require("gray-matter");
 async function generate() {
   const feed = new RSS({
     title: "Gabriel Barcelos",
-    site_url: "https://gabrielbarcelos.com.br",
-    feed_url: "https://gabrielbarcelos.com.br/feed.xml",
+    site_url: "https://gabrielrbarcelos.com",
+    feed_url: "https://gabrielrbarcelos.com/feed.xml",
   });
 
   const posts = await fs.readdir(path.join(__dirname, "..", "data", "blog"));
@@ -22,7 +22,7 @@ async function generate() {
 
       feed.item({
         title: frontmatter.data.title,
-        url: "https://gabrielbarcelos.com.br/blog/" + name.replace(/\.mdx?/, ""),
+        url: "https://gabrielrbarcelos.com/blog/" + name.replace(/\.mdx?/, ""),
         date: frontmatter.data.publishedAt,
         description: frontmatter.data.summary,
       });

@@ -31,7 +31,7 @@ export default function Blog({ posts }: BlogProps) {
         description={seoDesc}
         openGraph={{
           title: seoTitle,
-          url: `https://gabrielbarcelos.com.br/blog/`,
+          url: `https://gabrielrbarcelos.com/blog/`,
           description: seoDesc,
           site_name: "Gabriel Barcelos",
         }}

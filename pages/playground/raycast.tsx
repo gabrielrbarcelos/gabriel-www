@@ -177,7 +177,7 @@ export default function RaycastPage() {
   const title = "Raycast";
   const seoTitle = `${title} | Gabriel Barcelos`;
   const desc = "A design experiment in the playground.";
-  const url = `https://gabrielbarcelos.com.br/playground/raycast`;
+  const url = `https://gabrielrbarcelos.com/playground/raycast`;
   return (
     <>
       <NextSeo
@@ -190,7 +190,7 @@ export default function RaycastPage() {
           description: desc,
           images: [
             {
-              url: "https://gabrielbarcelos.com.br/og.jpg",
+              url: "https://gabrielrbarcelos.com/og.jpg",
               alt: title,
             },
           ],

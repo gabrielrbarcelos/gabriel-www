@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://gabrielbarcelos.com.br/sitemap.xml
+Sitemap: https://gabrielrbarcelos.com/sitemap.xml

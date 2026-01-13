@@ -7,13 +7,13 @@ export default class MyDocument extends Document {
         <Head>
           <link
             rel="webmention"
-            href="https://webmention.io/gabrielbarcelos.com.br/webmention"
+            href="https://webmention.io/gabrielrbarcelos.com/webmention"
           />
           <link
             rel="pingback"
-            href="https://webmention.io/gabrielbarcelos.com.br/xmlrpc"
+            href="https://webmention.io/gabrielrbarcelos.com/xmlrpc"
           />
-          <link href="https://github.com/gabrielbarcelos" rel="me" />
+          <link href="https://github.com/gabrielrbarcelos" rel="me" />
         </Head>
         <body>
           <Main />

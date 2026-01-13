@@ -16,7 +16,7 @@ type ProjectProps = {
 export default function Project({ project, rest }: ProjectProps) {
   const seoTitle = `${project.title} Case Study | Gabriel Barcelos`;
   const seoDesc = `${project.description}`;
-  const url = `https://gabrielbarcelos.com.br/project/${project.slug}`;
+  const url = `https://gabrielrbarcelos.com/project/${project.slug}`;
   const Component = useMDXComponent(project.body.code);
 
   return (
@@ -34,7 +34,7 @@ export default function Project({ project, rest }: ProjectProps) {
           description: seoDesc,
           images: [
             {
-              url: "https://gabrielbarcelos.com.br/og.jpg",
+              url: "https://gabrielrbarcelos.com/og.jpg",
               alt: project.title,
             },
           ],

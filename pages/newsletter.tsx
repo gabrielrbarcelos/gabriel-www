@@ -20,7 +20,7 @@ export default function NewsletterPage() {
         description={seoDesc}
         openGraph={{
           title: seoTitle,
-          url: `https://gabrielbarcelos.com.br/newsletter/`,
+          url: `https://gabrielrbarcelos.com/newsletter/`,
           description: seoDesc,
           site_name: "Gabriel Barcelos",
         }}

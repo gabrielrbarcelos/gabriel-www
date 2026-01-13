@@ -6,11 +6,11 @@ const config = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://gabrielbarcelos.com.br",
+    url: "https://gabrielrbarcelos.com",
     site_name: "Gabriel Barcelos",
     images: [
       {
-        url: "https://gabrielbarcelos.com.br/og.jpg",
+        url: "https://gabrielrbarcelos.com/og.jpg",
         alt: "Gabriel Barcelos",
       },
     ],

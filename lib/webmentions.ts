@@ -1,6 +1,6 @@
 export const getMentionsForSlug = async (slug: string) => {
   const webmentions = await fetch(
-    `https://webmention.io/api/mentions?target=https://gabrielbarcelos.com.br/blog/${slug}&per-page=10000`
+    `https://webmention.io/api/mentions?target=https://gabrielrbarcelos.com/blog/${slug}&per-page=10000`
   );
   const mentions = await webmentions.json();
   const numberOfmentions = mentions?.links?.length;

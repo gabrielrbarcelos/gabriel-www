@@ -6,9 +6,7 @@ import Link from "components/Link";
 import Section from "components/Section";
 import PostList from "components/postlist";
 
-import BitrefillGraphic from "components/projects/BitrefillGraphic";
-import TrailRoutesGraphic from "components/projects/TrailRoutesGraphic";
-import TracklibGraphic from "components/projects/TracklibGraphic";
+import ErpGraphic from "components/projects/ErpGraphic";
 
 type HomeProps = {
   posts: Post[];
@@ -46,9 +44,7 @@ export default function Home({ posts, projects }: HomeProps) {
                       </Link>
                     </div>
                     <Link href={`/project/${project.slug}`}>
-                      {project.slug === "tracklib" && <TracklibGraphic />}
-                      {project.slug === "bitrefill" && <BitrefillGraphic />}
-                      {project.slug === "trailroutes" && <TrailRoutesGraphic />}
+                      {project.slug === "erp" && <ErpGraphic />}
                     </Link>
                   </div>
                 </Section>
@@ -80,9 +76,9 @@ export const getStaticProps: GetStaticProps = async () => {
     .filter((_, i) => i < 4)
     .map((post) => pick(post, ["slug", "title", "publishedAt", "image"]));
 
-  const projects = allProjects.map((post) =>
-    pick(post, ["slug", "title", "description", "time"])
-  );
+  const projects = allProjects
+    .filter((project) => project.slug === "erp")
+    .map((project) => pick(project, ["slug", "title", "description", "time"]));
 
   return {
     props: { posts, projects },

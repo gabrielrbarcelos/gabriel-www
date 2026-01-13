@@ -22,7 +22,7 @@ export default function Playground() {
         description={seoDesc}
         openGraph={{
           title: seoTitle,
-          url: `https://gabrielbarcelos.com.br/playground/`,
+          url: `https://gabrielrbarcelos.com/playground/`,
           description: seoDesc,
           site_name: "Gabriel Barcelos",
         }}

@@ -22,7 +22,7 @@ type PostProps = {
 export default function Post({ post, related }: PostProps) {
   const seoTitle = `${post.title} | Gabriel Barcelos`;
   const seoDesc = `${post.summary}`;
-  const url = `https://gabrielbarcelos.com.br/blog/${post.slug}`;
+  const url = `https://gabrielrbarcelos.com/blog/${post.slug}`;
   const Component = useMDXComponent(post.body.code);
 
   return (
@@ -38,8 +38,8 @@ export default function Post({ post, related }: PostProps) {
           images: [
             {
               url: post.og
-                ? `https://gabrielbarcelos.com.br${post.og}`
-                : "https://gabrielbarcelos.com.br/og.jpg",
+                ? `https://gabrielrbarcelos.com${post.og}`
+                : "https://gabrielrbarcelos.com/og.jpg",
               alt: post.title,
             },
           ],
@@ -48,7 +48,7 @@ export default function Post({ post, related }: PostProps) {
           article: {
             publishedTime: post.publishedAt,
             modifiedTime: post.updatedAt,
-            authors: ["https://gabrielbarcelos.com.br"],
+            authors: ["https://gabrielrbarcelos.com"],
           },
         }}
       />

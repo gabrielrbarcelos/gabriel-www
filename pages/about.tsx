@@ -13,7 +13,7 @@ import { getActivities, getActivity } from "lib/strava";
 
 export const connectLinks = [
   { label: "𝕏", href: "https://x.com/oggbarcelos" },
-  { label: "Email", href: "mailto:hello@gabrielbarcelos.com" },
+  { label: "Email", href: "mailto:hello@gabrielrbarcelos.com" },
   { label: "GitHub", href: "https://github.com/gabrielbarcelos" },
 ];
 
@@ -53,7 +53,7 @@ export default function About({
         openGraph={{
           title: seoTitle,
           description: seoDesc,
-          url: `https://gabrielbarcelos.com.br/about/`,
+          url: `https://gabrielrbarcelos.com/about/`,
           site_name: "Gabriel Barcelos",
         }}
         twitter={{

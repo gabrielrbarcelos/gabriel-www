@@ -1,4 +1,4 @@
-# gabrielbarcelos.com.br
+# gabrielrbarcelos.com
 
 My personal website/portfolio/blog.
 
