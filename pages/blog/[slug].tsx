@@ -39,6 +39,8 @@ export default function Post({ post, related }: PostProps) {
             {
               url: post.og
                 ? `https://gabrielrbarcelos.com${post.og}`
+                : post.image
+                ? `https://gabrielrbarcelos.com${post.image}`
                 : "https://gabrielrbarcelos.com/og.jpg",
               alt: post.title,
             },
